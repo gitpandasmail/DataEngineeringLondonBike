@@ -1,7 +1,7 @@
 services:
   db:
     container_name: db
-    image: postgres:16.4
+    image: postgres:latest
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
@@ -12,20 +12,20 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - ./pgdata:/var/lib/postgresql/data
+      - ./pgdata:/var/lib/postgresql/18/data
       - ./pgtmp:/tmp
 
   py:
     container_name: py
     image: python:3.12.5-bookworm
     stdin_open: true
-    tty: true 
+    tty: true
     environment:
       SCRIPTS_PATH: /scripts # you can use 'docker exec py bash -c "pip install -r \${SCRIPTS_PATH}/requirements.txt"' to install the requirements file. Note: generally, it is better to create a custom image with the required packages installed. Otherwise, each time the container is spun up, the requirements need to be pulled and reinstalled.
       API_PATH: https://randomuser.me/api/
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
-      POSTGRES_DB: ${POSTGRES_DB} 
+      POSTGRES_DB: ${POSTGRES_DB}
     volumes:
       - ./py_app:/scripts
 
