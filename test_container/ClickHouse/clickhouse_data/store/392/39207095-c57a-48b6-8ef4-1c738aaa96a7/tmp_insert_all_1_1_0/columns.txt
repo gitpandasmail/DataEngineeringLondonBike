@@ -1,8 +1,0 @@
-columns format version: 1
-6 columns:
-`DateKey` UInt32
-`FullDate` Date
-`Year` UInt16
-`Month` UInt8
-`Day` UInt8
-`DayOfWeek` String
