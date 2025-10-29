@@ -36,20 +36,15 @@ columns substreams version: 1
 	elapsed_us
 1 substreams for column `input_wait_elapsed_us`:
 	input_wait_elapsed_us
-2 substreams for column `output_wait_elapsed_us`:
-	output_wait_elapsed_us.sparse.idx
+1 substreams for column `output_wait_elapsed_us`:
 	output_wait_elapsed_us
-2 substreams for column `input_rows`:
-	input_rows.sparse.idx
+1 substreams for column `input_rows`:
 	input_rows
-2 substreams for column `input_bytes`:
-	input_bytes.sparse.idx
+1 substreams for column `input_bytes`:
 	input_bytes
-2 substreams for column `output_rows`:
-	output_rows.sparse.idx
+1 substreams for column `output_rows`:
 	output_rows
-2 substreams for column `output_bytes`:
-	output_bytes.sparse.idx
+1 substreams for column `output_bytes`:
 	output_bytes
 1 substreams for column `processor_uniq_id`:
 	processor_uniq_id

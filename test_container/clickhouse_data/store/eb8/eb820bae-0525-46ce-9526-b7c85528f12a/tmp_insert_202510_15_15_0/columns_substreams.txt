@@ -290,8 +290,7 @@ columns substreams version: 1
 	ProfileEvent_DiskReadElapsedMicroseconds
 1 substreams for column `ProfileEvent_DiskWriteElapsedMicroseconds`:
 	ProfileEvent_DiskWriteElapsedMicroseconds
-2 substreams for column `ProfileEvent_NetworkReceiveElapsedMicroseconds`:
-	ProfileEvent_NetworkReceiveElapsedMicroseconds.sparse.idx
+1 substreams for column `ProfileEvent_NetworkReceiveElapsedMicroseconds`:
 	ProfileEvent_NetworkReceiveElapsedMicroseconds
 2 substreams for column `ProfileEvent_NetworkSendElapsedMicroseconds`:
 	ProfileEvent_NetworkSendElapsedMicroseconds.sparse.idx
@@ -1413,8 +1412,7 @@ columns substreams version: 1
 2 substreams for column `ProfileEvent_QueryProfilerConcurrencyOverruns`:
 	ProfileEvent_QueryProfilerConcurrencyOverruns.sparse.idx
 	ProfileEvent_QueryProfilerConcurrencyOverruns
-2 substreams for column `ProfileEvent_QueryProfilerRuns`:
-	ProfileEvent_QueryProfilerRuns.sparse.idx
+1 substreams for column `ProfileEvent_QueryProfilerRuns`:
 	ProfileEvent_QueryProfilerRuns
 2 substreams for column `ProfileEvent_QueryProfilerErrors`:
 	ProfileEvent_QueryProfilerErrors.sparse.idx
@@ -3126,8 +3124,7 @@ columns substreams version: 1
 2 substreams for column `CurrentMetric_QueryPreempted`:
 	CurrentMetric_QueryPreempted.sparse.idx
 	CurrentMetric_QueryPreempted
-2 substreams for column `CurrentMetric_TCPConnection`:
-	CurrentMetric_TCPConnection.sparse.idx
+1 substreams for column `CurrentMetric_TCPConnection`:
 	CurrentMetric_TCPConnection
 2 substreams for column `CurrentMetric_MySQLConnection`:
 	CurrentMetric_MySQLConnection.sparse.idx
@@ -3249,8 +3246,7 @@ columns substreams version: 1
 2 substreams for column `CurrentMetric_RWLockWaitingWriters`:
 	CurrentMetric_RWLockWaitingWriters.sparse.idx
 	CurrentMetric_RWLockWaitingWriters
-2 substreams for column `CurrentMetric_RWLockActiveReaders`:
-	CurrentMetric_RWLockActiveReaders.sparse.idx
+1 substreams for column `CurrentMetric_RWLockActiveReaders`:
 	CurrentMetric_RWLockActiveReaders
 2 substreams for column `CurrentMetric_RWLockActiveWriters`:
 	CurrentMetric_RWLockActiveWriters.sparse.idx
@@ -4007,9 +4003,11 @@ columns substreams version: 1
 2 substreams for column `CurrentMetric_QueryConditionCacheEntries`:
 	CurrentMetric_QueryConditionCacheEntries.sparse.idx
 	CurrentMetric_QueryConditionCacheEntries
-1 substreams for column `CurrentMetric_CompiledExpressionCacheBytes`:
+2 substreams for column `CurrentMetric_CompiledExpressionCacheBytes`:
+	CurrentMetric_CompiledExpressionCacheBytes.sparse.idx
 	CurrentMetric_CompiledExpressionCacheBytes
-1 substreams for column `CurrentMetric_CompiledExpressionCacheCount`:
+2 substreams for column `CurrentMetric_CompiledExpressionCacheCount`:
+	CurrentMetric_CompiledExpressionCacheCount.sparse.idx
 	CurrentMetric_CompiledExpressionCacheCount
 2 substreams for column `CurrentMetric_MergeJoinBlocksCacheBytes`:
 	CurrentMetric_MergeJoinBlocksCacheBytes.sparse.idx

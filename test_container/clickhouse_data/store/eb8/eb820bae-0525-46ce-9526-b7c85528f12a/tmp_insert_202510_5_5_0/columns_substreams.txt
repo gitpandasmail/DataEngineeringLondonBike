@@ -290,8 +290,7 @@ columns substreams version: 1
 	ProfileEvent_DiskReadElapsedMicroseconds
 1 substreams for column `ProfileEvent_DiskWriteElapsedMicroseconds`:
 	ProfileEvent_DiskWriteElapsedMicroseconds
-2 substreams for column `ProfileEvent_NetworkReceiveElapsedMicroseconds`:
-	ProfileEvent_NetworkReceiveElapsedMicroseconds.sparse.idx
+1 substreams for column `ProfileEvent_NetworkReceiveElapsedMicroseconds`:
 	ProfileEvent_NetworkReceiveElapsedMicroseconds
 2 substreams for column `ProfileEvent_NetworkSendElapsedMicroseconds`:
 	ProfileEvent_NetworkSendElapsedMicroseconds.sparse.idx
@@ -3125,8 +3124,7 @@ columns substreams version: 1
 2 substreams for column `CurrentMetric_QueryPreempted`:
 	CurrentMetric_QueryPreempted.sparse.idx
 	CurrentMetric_QueryPreempted
-2 substreams for column `CurrentMetric_TCPConnection`:
-	CurrentMetric_TCPConnection.sparse.idx
+1 substreams for column `CurrentMetric_TCPConnection`:
 	CurrentMetric_TCPConnection
 2 substreams for column `CurrentMetric_MySQLConnection`:
 	CurrentMetric_MySQLConnection.sparse.idx

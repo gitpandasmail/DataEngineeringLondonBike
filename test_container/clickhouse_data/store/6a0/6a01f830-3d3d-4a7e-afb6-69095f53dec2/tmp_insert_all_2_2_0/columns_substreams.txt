@@ -1,0 +1,18 @@
+columns substreams version: 1
+8 columns:
+1 substreams for column `CustomerKey`:
+	CustomerKey
+1 substreams for column `CustomerID`:
+	CustomerID
+1 substreams for column `FirstName`:
+	FirstName
+1 substreams for column `LastName`:
+	LastName
+1 substreams for column `Segment`:
+	Segment
+1 substreams for column `City`:
+	City
+1 substreams for column `ValidFrom`:
+	ValidFrom
+1 substreams for column `ValidTo`:
+	ValidTo

@@ -1,0 +1,10 @@
+columns format version: 1
+8 columns:
+`CustomerKey` UInt32
+`CustomerID` UInt32
+`FirstName` String
+`LastName` String
+`Segment` String
+`City` String
+`ValidFrom` Date
+`ValidTo` Date

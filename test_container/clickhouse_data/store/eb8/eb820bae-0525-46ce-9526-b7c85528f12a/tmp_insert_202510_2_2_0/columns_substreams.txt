@@ -1118,8 +1118,7 @@ columns substreams version: 1
 	ProfileEvent_RegexpLocalCacheMiss
 1 substreams for column `ProfileEvent_ContextLock`:
 	ProfileEvent_ContextLock
-2 substreams for column `ProfileEvent_ContextLockWaitMicroseconds`:
-	ProfileEvent_ContextLockWaitMicroseconds.sparse.idx
+1 substreams for column `ProfileEvent_ContextLockWaitMicroseconds`:
 	ProfileEvent_ContextLockWaitMicroseconds
 2 substreams for column `ProfileEvent_StorageBufferFlush`:
 	ProfileEvent_StorageBufferFlush.sparse.idx
@@ -3248,8 +3247,7 @@ columns substreams version: 1
 2 substreams for column `CurrentMetric_RWLockWaitingWriters`:
 	CurrentMetric_RWLockWaitingWriters.sparse.idx
 	CurrentMetric_RWLockWaitingWriters
-2 substreams for column `CurrentMetric_RWLockActiveReaders`:
-	CurrentMetric_RWLockActiveReaders.sparse.idx
+1 substreams for column `CurrentMetric_RWLockActiveReaders`:
 	CurrentMetric_RWLockActiveReaders
 2 substreams for column `CurrentMetric_RWLockActiveWriters`:
 	CurrentMetric_RWLockActiveWriters.sparse.idx

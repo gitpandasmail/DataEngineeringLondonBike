@@ -10,23 +10,18 @@ columns substreams version: 1
 	event_time
 1 substreams for column `event_time_microseconds`:
 	event_time_microseconds
-2 substreams for column `ProfileEvent_Query`:
-	ProfileEvent_Query.sparse.idx
+1 substreams for column `ProfileEvent_Query`:
 	ProfileEvent_Query
-2 substreams for column `ProfileEvent_SelectQuery`:
-	ProfileEvent_SelectQuery.sparse.idx
+1 substreams for column `ProfileEvent_SelectQuery`:
 	ProfileEvent_SelectQuery
 2 substreams for column `ProfileEvent_InsertQuery`:
 	ProfileEvent_InsertQuery.sparse.idx
 	ProfileEvent_InsertQuery
-2 substreams for column `ProfileEvent_InitialQuery`:
-	ProfileEvent_InitialQuery.sparse.idx
+1 substreams for column `ProfileEvent_InitialQuery`:
 	ProfileEvent_InitialQuery
-2 substreams for column `ProfileEvent_QueriesWithSubqueries`:
-	ProfileEvent_QueriesWithSubqueries.sparse.idx
+1 substreams for column `ProfileEvent_QueriesWithSubqueries`:
 	ProfileEvent_QueriesWithSubqueries
-2 substreams for column `ProfileEvent_SelectQueriesWithSubqueries`:
-	ProfileEvent_SelectQueriesWithSubqueries.sparse.idx
+1 substreams for column `ProfileEvent_SelectQueriesWithSubqueries`:
 	ProfileEvent_SelectQueriesWithSubqueries
 2 substreams for column `ProfileEvent_InsertQueriesWithSubqueries`:
 	ProfileEvent_InsertQueriesWithSubqueries.sparse.idx
@@ -67,11 +62,9 @@ columns substreams version: 1
 2 substreams for column `ProfileEvent_FailedAsyncInsertQuery`:
 	ProfileEvent_FailedAsyncInsertQuery.sparse.idx
 	ProfileEvent_FailedAsyncInsertQuery
-2 substreams for column `ProfileEvent_QueryTimeMicroseconds`:
-	ProfileEvent_QueryTimeMicroseconds.sparse.idx
+1 substreams for column `ProfileEvent_QueryTimeMicroseconds`:
 	ProfileEvent_QueryTimeMicroseconds
-2 substreams for column `ProfileEvent_SelectQueryTimeMicroseconds`:
-	ProfileEvent_SelectQueryTimeMicroseconds.sparse.idx
+1 substreams for column `ProfileEvent_SelectQueryTimeMicroseconds`:
 	ProfileEvent_SelectQueryTimeMicroseconds
 2 substreams for column `ProfileEvent_InsertQueryTimeMicroseconds`:
 	ProfileEvent_InsertQueryTimeMicroseconds.sparse.idx
@@ -185,16 +178,13 @@ columns substreams version: 1
 	ProfileEvent_IOBufferAllocs
 1 substreams for column `ProfileEvent_IOBufferAllocBytes`:
 	ProfileEvent_IOBufferAllocBytes
-2 substreams for column `ProfileEvent_ArenaAllocChunks`:
-	ProfileEvent_ArenaAllocChunks.sparse.idx
+1 substreams for column `ProfileEvent_ArenaAllocChunks`:
 	ProfileEvent_ArenaAllocChunks
-2 substreams for column `ProfileEvent_ArenaAllocBytes`:
-	ProfileEvent_ArenaAllocBytes.sparse.idx
+1 substreams for column `ProfileEvent_ArenaAllocBytes`:
 	ProfileEvent_ArenaAllocBytes
 1 substreams for column `ProfileEvent_FunctionExecute`:
 	ProfileEvent_FunctionExecute
-2 substreams for column `ProfileEvent_TableFunctionExecute`:
-	ProfileEvent_TableFunctionExecute.sparse.idx
+1 substreams for column `ProfileEvent_TableFunctionExecute`:
 	ProfileEvent_TableFunctionExecute
 2 substreams for column `ProfileEvent_DefaultImplementationForNullsRows`:
 	ProfileEvent_DefaultImplementationForNullsRows.sparse.idx
@@ -290,56 +280,41 @@ columns substreams version: 1
 	ProfileEvent_DiskReadElapsedMicroseconds
 1 substreams for column `ProfileEvent_DiskWriteElapsedMicroseconds`:
 	ProfileEvent_DiskWriteElapsedMicroseconds
-2 substreams for column `ProfileEvent_NetworkReceiveElapsedMicroseconds`:
-	ProfileEvent_NetworkReceiveElapsedMicroseconds.sparse.idx
+1 substreams for column `ProfileEvent_NetworkReceiveElapsedMicroseconds`:
 	ProfileEvent_NetworkReceiveElapsedMicroseconds
-2 substreams for column `ProfileEvent_NetworkSendElapsedMicroseconds`:
-	ProfileEvent_NetworkSendElapsedMicroseconds.sparse.idx
+1 substreams for column `ProfileEvent_NetworkSendElapsedMicroseconds`:
 	ProfileEvent_NetworkSendElapsedMicroseconds
-2 substreams for column `ProfileEvent_NetworkReceiveBytes`:
-	ProfileEvent_NetworkReceiveBytes.sparse.idx
+1 substreams for column `ProfileEvent_NetworkReceiveBytes`:
 	ProfileEvent_NetworkReceiveBytes
-2 substreams for column `ProfileEvent_NetworkSendBytes`:
-	ProfileEvent_NetworkSendBytes.sparse.idx
+1 substreams for column `ProfileEvent_NetworkSendBytes`:
 	ProfileEvent_NetworkSendBytes
-2 substreams for column `ProfileEvent_GlobalThreadPoolExpansions`:
-	ProfileEvent_GlobalThreadPoolExpansions.sparse.idx
+1 substreams for column `ProfileEvent_GlobalThreadPoolExpansions`:
 	ProfileEvent_GlobalThreadPoolExpansions
 2 substreams for column `ProfileEvent_GlobalThreadPoolShrinks`:
 	ProfileEvent_GlobalThreadPoolShrinks.sparse.idx
 	ProfileEvent_GlobalThreadPoolShrinks
-2 substreams for column `ProfileEvent_GlobalThreadPoolThreadCreationMicroseconds`:
-	ProfileEvent_GlobalThreadPoolThreadCreationMicroseconds.sparse.idx
+1 substreams for column `ProfileEvent_GlobalThreadPoolThreadCreationMicroseconds`:
 	ProfileEvent_GlobalThreadPoolThreadCreationMicroseconds
 2 substreams for column `ProfileEvent_GlobalThreadPoolLockWaitMicroseconds`:
 	ProfileEvent_GlobalThreadPoolLockWaitMicroseconds.sparse.idx
 	ProfileEvent_GlobalThreadPoolLockWaitMicroseconds
-2 substreams for column `ProfileEvent_GlobalThreadPoolJobs`:
-	ProfileEvent_GlobalThreadPoolJobs.sparse.idx
+1 substreams for column `ProfileEvent_GlobalThreadPoolJobs`:
 	ProfileEvent_GlobalThreadPoolJobs
-2 substreams for column `ProfileEvent_GlobalThreadPoolJobWaitTimeMicroseconds`:
-	ProfileEvent_GlobalThreadPoolJobWaitTimeMicroseconds.sparse.idx
+1 substreams for column `ProfileEvent_GlobalThreadPoolJobWaitTimeMicroseconds`:
 	ProfileEvent_GlobalThreadPoolJobWaitTimeMicroseconds
-2 substreams for column `ProfileEvent_LocalThreadPoolExpansions`:
-	ProfileEvent_LocalThreadPoolExpansions.sparse.idx
+1 substreams for column `ProfileEvent_LocalThreadPoolExpansions`:
 	ProfileEvent_LocalThreadPoolExpansions
-2 substreams for column `ProfileEvent_LocalThreadPoolShrinks`:
-	ProfileEvent_LocalThreadPoolShrinks.sparse.idx
+1 substreams for column `ProfileEvent_LocalThreadPoolShrinks`:
 	ProfileEvent_LocalThreadPoolShrinks
-2 substreams for column `ProfileEvent_LocalThreadPoolThreadCreationMicroseconds`:
-	ProfileEvent_LocalThreadPoolThreadCreationMicroseconds.sparse.idx
+1 substreams for column `ProfileEvent_LocalThreadPoolThreadCreationMicroseconds`:
 	ProfileEvent_LocalThreadPoolThreadCreationMicroseconds
-2 substreams for column `ProfileEvent_LocalThreadPoolLockWaitMicroseconds`:
-	ProfileEvent_LocalThreadPoolLockWaitMicroseconds.sparse.idx
+1 substreams for column `ProfileEvent_LocalThreadPoolLockWaitMicroseconds`:
 	ProfileEvent_LocalThreadPoolLockWaitMicroseconds
-2 substreams for column `ProfileEvent_LocalThreadPoolJobs`:
-	ProfileEvent_LocalThreadPoolJobs.sparse.idx
+1 substreams for column `ProfileEvent_LocalThreadPoolJobs`:
 	ProfileEvent_LocalThreadPoolJobs
-2 substreams for column `ProfileEvent_LocalThreadPoolBusyMicroseconds`:
-	ProfileEvent_LocalThreadPoolBusyMicroseconds.sparse.idx
+1 substreams for column `ProfileEvent_LocalThreadPoolBusyMicroseconds`:
 	ProfileEvent_LocalThreadPoolBusyMicroseconds
-2 substreams for column `ProfileEvent_LocalThreadPoolJobWaitTimeMicroseconds`:
-	ProfileEvent_LocalThreadPoolJobWaitTimeMicroseconds.sparse.idx
+1 substreams for column `ProfileEvent_LocalThreadPoolJobWaitTimeMicroseconds`:
 	ProfileEvent_LocalThreadPoolJobWaitTimeMicroseconds
 2 substreams for column `ProfileEvent_DiskS3GetRequestThrottlerCount`:
 	ProfileEvent_DiskS3GetRequestThrottlerCount.sparse.idx
@@ -840,14 +815,11 @@ columns substreams version: 1
 2 substreams for column `ProfileEvent_IcebergMinMaxIndexPrunedFiles`:
 	ProfileEvent_IcebergMinMaxIndexPrunedFiles.sparse.idx
 	ProfileEvent_IcebergMinMaxIndexPrunedFiles
-2 substreams for column `ProfileEvent_JoinBuildTableRowCount`:
-	ProfileEvent_JoinBuildTableRowCount.sparse.idx
+1 substreams for column `ProfileEvent_JoinBuildTableRowCount`:
 	ProfileEvent_JoinBuildTableRowCount
-2 substreams for column `ProfileEvent_JoinProbeTableRowCount`:
-	ProfileEvent_JoinProbeTableRowCount.sparse.idx
+1 substreams for column `ProfileEvent_JoinProbeTableRowCount`:
 	ProfileEvent_JoinProbeTableRowCount
-2 substreams for column `ProfileEvent_JoinResultRowCount`:
-	ProfileEvent_JoinResultRowCount.sparse.idx
+1 substreams for column `ProfileEvent_JoinResultRowCount`:
 	ProfileEvent_JoinResultRowCount
 2 substreams for column `ProfileEvent_JoinReorderMicroseconds`:
 	ProfileEvent_JoinReorderMicroseconds.sparse.idx
@@ -1258,8 +1230,7 @@ columns substreams version: 1
 	ProfileEvent_MemoryAllocatorPurgeTimeMicroseconds
 1 substreams for column `ProfileEvent_SoftPageFaults`:
 	ProfileEvent_SoftPageFaults
-2 substreams for column `ProfileEvent_HardPageFaults`:
-	ProfileEvent_HardPageFaults.sparse.idx
+1 substreams for column `ProfileEvent_HardPageFaults`:
 	ProfileEvent_HardPageFaults
 2 substreams for column `ProfileEvent_OSIOWaitMicroseconds`:
 	ProfileEvent_OSIOWaitMicroseconds.sparse.idx
@@ -1268,8 +1239,7 @@ columns substreams version: 1
 	ProfileEvent_OSCPUWaitMicroseconds
 1 substreams for column `ProfileEvent_OSCPUVirtualTimeMicroseconds`:
 	ProfileEvent_OSCPUVirtualTimeMicroseconds
-2 substreams for column `ProfileEvent_OSReadBytes`:
-	ProfileEvent_OSReadBytes.sparse.idx
+1 substreams for column `ProfileEvent_OSReadBytes`:
 	ProfileEvent_OSReadBytes
 2 substreams for column `ProfileEvent_OSWriteBytes`:
 	ProfileEvent_OSWriteBytes.sparse.idx
@@ -2593,11 +2563,9 @@ columns substreams version: 1
 2 substreams for column `ProfileEvent_InterfaceHTTPReceiveBytes`:
 	ProfileEvent_InterfaceHTTPReceiveBytes.sparse.idx
 	ProfileEvent_InterfaceHTTPReceiveBytes
-2 substreams for column `ProfileEvent_InterfaceNativeSendBytes`:
-	ProfileEvent_InterfaceNativeSendBytes.sparse.idx
+1 substreams for column `ProfileEvent_InterfaceNativeSendBytes`:
 	ProfileEvent_InterfaceNativeSendBytes
-2 substreams for column `ProfileEvent_InterfaceNativeReceiveBytes`:
-	ProfileEvent_InterfaceNativeReceiveBytes.sparse.idx
+1 substreams for column `ProfileEvent_InterfaceNativeReceiveBytes`:
 	ProfileEvent_InterfaceNativeReceiveBytes
 2 substreams for column `ProfileEvent_InterfacePrometheusSendBytes`:
 	ProfileEvent_InterfacePrometheusSendBytes.sparse.idx
@@ -2877,8 +2845,7 @@ columns substreams version: 1
 2 substreams for column `ProfileEvent_ConcurrencyControlSlotsDelayed`:
 	ProfileEvent_ConcurrencyControlSlotsDelayed.sparse.idx
 	ProfileEvent_ConcurrencyControlSlotsDelayed
-2 substreams for column `ProfileEvent_ConcurrencyControlSlotsAcquired`:
-	ProfileEvent_ConcurrencyControlSlotsAcquired.sparse.idx
+1 substreams for column `ProfileEvent_ConcurrencyControlSlotsAcquired`:
 	ProfileEvent_ConcurrencyControlSlotsAcquired
 1 substreams for column `ProfileEvent_ConcurrencyControlSlotsAcquiredNonCompeting`:
 	ProfileEvent_ConcurrencyControlSlotsAcquiredNonCompeting
@@ -2976,11 +2943,9 @@ columns substreams version: 1
 2 substreams for column `ProfileEvent_ParquetDecodingTaskBatches`:
 	ProfileEvent_ParquetDecodingTaskBatches.sparse.idx
 	ProfileEvent_ParquetDecodingTaskBatches
-2 substreams for column `ProfileEvent_FilterTransformPassedRows`:
-	ProfileEvent_FilterTransformPassedRows.sparse.idx
+1 substreams for column `ProfileEvent_FilterTransformPassedRows`:
 	ProfileEvent_FilterTransformPassedRows
-2 substreams for column `ProfileEvent_FilterTransformPassedBytes`:
-	ProfileEvent_FilterTransformPassedBytes.sparse.idx
+1 substreams for column `ProfileEvent_FilterTransformPassedBytes`:
 	ProfileEvent_FilterTransformPassedBytes
 2 substreams for column `ProfileEvent_QueryPreempted`:
 	ProfileEvent_QueryPreempted.sparse.idx
@@ -3126,8 +3091,7 @@ columns substreams version: 1
 2 substreams for column `CurrentMetric_QueryPreempted`:
 	CurrentMetric_QueryPreempted.sparse.idx
 	CurrentMetric_QueryPreempted
-2 substreams for column `CurrentMetric_TCPConnection`:
-	CurrentMetric_TCPConnection.sparse.idx
+1 substreams for column `CurrentMetric_TCPConnection`:
 	CurrentMetric_TCPConnection
 2 substreams for column `CurrentMetric_MySQLConnection`:
 	CurrentMetric_MySQLConnection.sparse.idx

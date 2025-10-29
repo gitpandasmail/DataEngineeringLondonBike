@@ -135,31 +135,27 @@ columns substreams version: 1
 	client_name.dict_prefix
 	client_name.dict
 	client_name
-2 substreams for column `client_revision`:
-	client_revision.sparse.idx
+1 substreams for column `client_revision`:
 	client_revision
-2 substreams for column `client_version_major`:
-	client_version_major.sparse.idx
+1 substreams for column `client_version_major`:
 	client_version_major
-2 substreams for column `client_version_minor`:
-	client_version_minor.sparse.idx
+1 substreams for column `client_version_minor`:
 	client_version_minor
-2 substreams for column `client_version_patch`:
-	client_version_patch.sparse.idx
+1 substreams for column `client_version_patch`:
 	client_version_patch
-2 substreams for column `script_query_number`:
-	script_query_number.sparse.idx
+1 substreams for column `script_query_number`:
 	script_query_number
-2 substreams for column `script_line_number`:
-	script_line_number.sparse.idx
+1 substreams for column `script_line_number`:
 	script_line_number
-1 substreams for column `http_method`:
+2 substreams for column `http_method`:
+	http_method.sparse.idx
 	http_method
 3 substreams for column `http_user_agent`:
 	http_user_agent.dict_prefix
 	http_user_agent.dict
 	http_user_agent
-1 substreams for column `http_referer`:
+2 substreams for column `http_referer`:
+	http_referer.sparse.idx
 	http_referer
 2 substreams for column `forwarded_for`:
 	forwarded_for.sparse.idx

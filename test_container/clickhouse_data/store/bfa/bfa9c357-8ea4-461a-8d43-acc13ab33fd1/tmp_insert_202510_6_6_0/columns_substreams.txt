@@ -18,7 +18,8 @@ columns substreams version: 1
 	trace_type
 1 substreams for column `thread_id`:
 	thread_id
-1 substreams for column `query_id`:
+2 substreams for column `query_id`:
+	query_id.sparse.idx
 	query_id
 2 substreams for column `trace`:
 	trace.size0

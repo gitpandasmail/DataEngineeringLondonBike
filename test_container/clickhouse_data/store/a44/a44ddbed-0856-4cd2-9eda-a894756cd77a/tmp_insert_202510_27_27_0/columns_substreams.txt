@@ -18,7 +18,8 @@ columns substreams version: 1
 	thread_id
 1 substreams for column `level`:
 	level
-1 substreams for column `query_id`:
+2 substreams for column `query_id`:
+	query_id.sparse.idx
 	query_id
 3 substreams for column `logger_name`:
 	logger_name.dict_prefix
@@ -44,15 +45,20 @@ columns substreams version: 1
 	value2
 1 substreams for column `value3`:
 	value3
-1 substreams for column `value4`:
+2 substreams for column `value4`:
+	value4.sparse.idx
 	value4
-1 substreams for column `value5`:
+2 substreams for column `value5`:
+	value5.sparse.idx
 	value5
-1 substreams for column `value6`:
+2 substreams for column `value6`:
+	value6.sparse.idx
 	value6
-1 substreams for column `value7`:
+2 substreams for column `value7`:
+	value7.sparse.idx
 	value7
-1 substreams for column `value8`:
+2 substreams for column `value8`:
+	value8.sparse.idx
 	value8
 2 substreams for column `value9`:
 	value9.sparse.idx

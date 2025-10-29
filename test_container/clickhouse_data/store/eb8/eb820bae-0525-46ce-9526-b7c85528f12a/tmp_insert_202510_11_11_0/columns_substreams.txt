@@ -290,8 +290,7 @@ columns substreams version: 1
 	ProfileEvent_DiskReadElapsedMicroseconds
 1 substreams for column `ProfileEvent_DiskWriteElapsedMicroseconds`:
 	ProfileEvent_DiskWriteElapsedMicroseconds
-2 substreams for column `ProfileEvent_NetworkReceiveElapsedMicroseconds`:
-	ProfileEvent_NetworkReceiveElapsedMicroseconds.sparse.idx
+1 substreams for column `ProfileEvent_NetworkReceiveElapsedMicroseconds`:
 	ProfileEvent_NetworkReceiveElapsedMicroseconds
 2 substreams for column `ProfileEvent_NetworkSendElapsedMicroseconds`:
 	ProfileEvent_NetworkSendElapsedMicroseconds.sparse.idx
@@ -1119,7 +1118,8 @@ columns substreams version: 1
 	ProfileEvent_RegexpLocalCacheMiss
 1 substreams for column `ProfileEvent_ContextLock`:
 	ProfileEvent_ContextLock
-1 substreams for column `ProfileEvent_ContextLockWaitMicroseconds`:
+2 substreams for column `ProfileEvent_ContextLockWaitMicroseconds`:
+	ProfileEvent_ContextLockWaitMicroseconds.sparse.idx
 	ProfileEvent_ContextLockWaitMicroseconds
 2 substreams for column `ProfileEvent_StorageBufferFlush`:
 	ProfileEvent_StorageBufferFlush.sparse.idx
@@ -1238,7 +1238,8 @@ columns substreams version: 1
 	ProfileEvent_DNSError
 1 substreams for column `ProfileEvent_PartsLockHoldMicroseconds`:
 	ProfileEvent_PartsLockHoldMicroseconds
-1 substreams for column `ProfileEvent_PartsLockWaitMicroseconds`:
+2 substreams for column `ProfileEvent_PartsLockWaitMicroseconds`:
+	ProfileEvent_PartsLockWaitMicroseconds.sparse.idx
 	ProfileEvent_PartsLockWaitMicroseconds
 1 substreams for column `ProfileEvent_RealTimeMicroseconds`:
 	ProfileEvent_RealTimeMicroseconds
@@ -2841,7 +2842,8 @@ columns substreams version: 1
 2 substreams for column `ProfileEvent_HTTPServerConnectionsPreserved`:
 	ProfileEvent_HTTPServerConnectionsPreserved.sparse.idx
 	ProfileEvent_HTTPServerConnectionsPreserved
-1 substreams for column `ProfileEvent_HTTPServerConnectionsExpired`:
+2 substreams for column `ProfileEvent_HTTPServerConnectionsExpired`:
+	ProfileEvent_HTTPServerConnectionsExpired.sparse.idx
 	ProfileEvent_HTTPServerConnectionsExpired
 2 substreams for column `ProfileEvent_HTTPServerConnectionsClosed`:
 	ProfileEvent_HTTPServerConnectionsClosed.sparse.idx
@@ -3123,8 +3125,7 @@ columns substreams version: 1
 2 substreams for column `CurrentMetric_QueryPreempted`:
 	CurrentMetric_QueryPreempted.sparse.idx
 	CurrentMetric_QueryPreempted
-2 substreams for column `CurrentMetric_TCPConnection`:
-	CurrentMetric_TCPConnection.sparse.idx
+1 substreams for column `CurrentMetric_TCPConnection`:
 	CurrentMetric_TCPConnection
 2 substreams for column `CurrentMetric_MySQLConnection`:
 	CurrentMetric_MySQLConnection.sparse.idx
@@ -4000,9 +4001,11 @@ columns substreams version: 1
 2 substreams for column `CurrentMetric_QueryConditionCacheEntries`:
 	CurrentMetric_QueryConditionCacheEntries.sparse.idx
 	CurrentMetric_QueryConditionCacheEntries
-1 substreams for column `CurrentMetric_CompiledExpressionCacheBytes`:
+2 substreams for column `CurrentMetric_CompiledExpressionCacheBytes`:
+	CurrentMetric_CompiledExpressionCacheBytes.sparse.idx
 	CurrentMetric_CompiledExpressionCacheBytes
-1 substreams for column `CurrentMetric_CompiledExpressionCacheCount`:
+2 substreams for column `CurrentMetric_CompiledExpressionCacheCount`:
+	CurrentMetric_CompiledExpressionCacheCount.sparse.idx
 	CurrentMetric_CompiledExpressionCacheCount
 2 substreams for column `CurrentMetric_MergeJoinBlocksCacheBytes`:
 	CurrentMetric_MergeJoinBlocksCacheBytes.sparse.idx

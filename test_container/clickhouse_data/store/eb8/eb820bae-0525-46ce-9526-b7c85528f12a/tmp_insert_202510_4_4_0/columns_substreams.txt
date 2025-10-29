@@ -271,8 +271,7 @@ columns substreams version: 1
 2 substreams for column `ProfileEvent_QueryCacheMisses`:
 	ProfileEvent_QueryCacheMisses.sparse.idx
 	ProfileEvent_QueryCacheMisses
-2 substreams for column `ProfileEvent_CreatedReadBufferOrdinary`:
-	ProfileEvent_CreatedReadBufferOrdinary.sparse.idx
+1 substreams for column `ProfileEvent_CreatedReadBufferOrdinary`:
 	ProfileEvent_CreatedReadBufferOrdinary
 2 substreams for column `ProfileEvent_CreatedReadBufferDirectIO`:
 	ProfileEvent_CreatedReadBufferDirectIO.sparse.idx
@@ -1119,7 +1118,8 @@ columns substreams version: 1
 	ProfileEvent_RegexpLocalCacheMiss
 1 substreams for column `ProfileEvent_ContextLock`:
 	ProfileEvent_ContextLock
-1 substreams for column `ProfileEvent_ContextLockWaitMicroseconds`:
+2 substreams for column `ProfileEvent_ContextLockWaitMicroseconds`:
+	ProfileEvent_ContextLockWaitMicroseconds.sparse.idx
 	ProfileEvent_ContextLockWaitMicroseconds
 2 substreams for column `ProfileEvent_StorageBufferFlush`:
 	ProfileEvent_StorageBufferFlush.sparse.idx
@@ -3125,8 +3125,7 @@ columns substreams version: 1
 2 substreams for column `CurrentMetric_QueryPreempted`:
 	CurrentMetric_QueryPreempted.sparse.idx
 	CurrentMetric_QueryPreempted
-2 substreams for column `CurrentMetric_TCPConnection`:
-	CurrentMetric_TCPConnection.sparse.idx
+1 substreams for column `CurrentMetric_TCPConnection`:
 	CurrentMetric_TCPConnection
 2 substreams for column `CurrentMetric_MySQLConnection`:
 	CurrentMetric_MySQLConnection.sparse.idx
@@ -3248,8 +3247,7 @@ columns substreams version: 1
 2 substreams for column `CurrentMetric_RWLockWaitingWriters`:
 	CurrentMetric_RWLockWaitingWriters.sparse.idx
 	CurrentMetric_RWLockWaitingWriters
-2 substreams for column `CurrentMetric_RWLockActiveReaders`:
-	CurrentMetric_RWLockActiveReaders.sparse.idx
+1 substreams for column `CurrentMetric_RWLockActiveReaders`:
 	CurrentMetric_RWLockActiveReaders
 2 substreams for column `CurrentMetric_RWLockActiveWriters`:
 	CurrentMetric_RWLockActiveWriters.sparse.idx

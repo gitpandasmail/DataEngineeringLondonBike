@@ -36,8 +36,7 @@ columns substreams version: 1
 	elapsed_us
 1 substreams for column `input_wait_elapsed_us`:
 	input_wait_elapsed_us
-2 substreams for column `output_wait_elapsed_us`:
-	output_wait_elapsed_us.sparse.idx
+1 substreams for column `output_wait_elapsed_us`:
 	output_wait_elapsed_us
 2 substreams for column `input_rows`:
 	input_rows.sparse.idx
