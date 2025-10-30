@@ -83,14 +83,11 @@ columns substreams version: 1
 	views.size0
 	views.dict
 	views
-2 substreams for column `exception_code`:
-	exception_code.sparse.idx
+1 substreams for column `exception_code`:
 	exception_code
-2 substreams for column `exception`:
-	exception.sparse.idx
+1 substreams for column `exception`:
 	exception
-2 substreams for column `stack_trace`:
-	stack_trace.sparse.idx
+1 substreams for column `stack_trace`:
 	stack_trace
 1 substreams for column `is_initial_query`:
 	is_initial_query

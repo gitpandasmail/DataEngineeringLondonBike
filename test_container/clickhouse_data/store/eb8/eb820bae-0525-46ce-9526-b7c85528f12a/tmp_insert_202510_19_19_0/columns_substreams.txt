@@ -1264,7 +1264,8 @@ columns substreams version: 1
 2 substreams for column `ProfileEvent_OSIOWaitMicroseconds`:
 	ProfileEvent_OSIOWaitMicroseconds.sparse.idx
 	ProfileEvent_OSIOWaitMicroseconds
-1 substreams for column `ProfileEvent_OSCPUWaitMicroseconds`:
+2 substreams for column `ProfileEvent_OSCPUWaitMicroseconds`:
+	ProfileEvent_OSCPUWaitMicroseconds.sparse.idx
 	ProfileEvent_OSCPUWaitMicroseconds
 1 substreams for column `ProfileEvent_OSCPUVirtualTimeMicroseconds`:
 	ProfileEvent_OSCPUVirtualTimeMicroseconds
@@ -3126,7 +3127,8 @@ columns substreams version: 1
 2 substreams for column `CurrentMetric_QueryPreempted`:
 	CurrentMetric_QueryPreempted.sparse.idx
 	CurrentMetric_QueryPreempted
-1 substreams for column `CurrentMetric_TCPConnection`:
+2 substreams for column `CurrentMetric_TCPConnection`:
+	CurrentMetric_TCPConnection.sparse.idx
 	CurrentMetric_TCPConnection
 2 substreams for column `CurrentMetric_MySQLConnection`:
 	CurrentMetric_MySQLConnection.sparse.idx

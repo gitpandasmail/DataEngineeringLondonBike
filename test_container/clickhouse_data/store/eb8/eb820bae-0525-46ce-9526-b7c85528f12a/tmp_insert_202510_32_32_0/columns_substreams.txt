@@ -290,7 +290,8 @@ columns substreams version: 1
 	ProfileEvent_DiskReadElapsedMicroseconds
 1 substreams for column `ProfileEvent_DiskWriteElapsedMicroseconds`:
 	ProfileEvent_DiskWriteElapsedMicroseconds
-1 substreams for column `ProfileEvent_NetworkReceiveElapsedMicroseconds`:
+2 substreams for column `ProfileEvent_NetworkReceiveElapsedMicroseconds`:
+	ProfileEvent_NetworkReceiveElapsedMicroseconds.sparse.idx
 	ProfileEvent_NetworkReceiveElapsedMicroseconds
 2 substreams for column `ProfileEvent_NetworkSendElapsedMicroseconds`:
 	ProfileEvent_NetworkSendElapsedMicroseconds.sparse.idx
@@ -1238,8 +1239,7 @@ columns substreams version: 1
 	ProfileEvent_DNSError
 1 substreams for column `ProfileEvent_PartsLockHoldMicroseconds`:
 	ProfileEvent_PartsLockHoldMicroseconds
-2 substreams for column `ProfileEvent_PartsLockWaitMicroseconds`:
-	ProfileEvent_PartsLockWaitMicroseconds.sparse.idx
+1 substreams for column `ProfileEvent_PartsLockWaitMicroseconds`:
 	ProfileEvent_PartsLockWaitMicroseconds
 1 substreams for column `ProfileEvent_RealTimeMicroseconds`:
 	ProfileEvent_RealTimeMicroseconds
@@ -1258,8 +1258,7 @@ columns substreams version: 1
 	ProfileEvent_MemoryAllocatorPurgeTimeMicroseconds
 1 substreams for column `ProfileEvent_SoftPageFaults`:
 	ProfileEvent_SoftPageFaults
-2 substreams for column `ProfileEvent_HardPageFaults`:
-	ProfileEvent_HardPageFaults.sparse.idx
+1 substreams for column `ProfileEvent_HardPageFaults`:
 	ProfileEvent_HardPageFaults
 2 substreams for column `ProfileEvent_OSIOWaitMicroseconds`:
 	ProfileEvent_OSIOWaitMicroseconds.sparse.idx
@@ -1268,8 +1267,7 @@ columns substreams version: 1
 	ProfileEvent_OSCPUWaitMicroseconds
 1 substreams for column `ProfileEvent_OSCPUVirtualTimeMicroseconds`:
 	ProfileEvent_OSCPUVirtualTimeMicroseconds
-2 substreams for column `ProfileEvent_OSReadBytes`:
-	ProfileEvent_OSReadBytes.sparse.idx
+1 substreams for column `ProfileEvent_OSReadBytes`:
 	ProfileEvent_OSReadBytes
 2 substreams for column `ProfileEvent_OSWriteBytes`:
 	ProfileEvent_OSWriteBytes.sparse.idx
@@ -1413,8 +1411,7 @@ columns substreams version: 1
 2 substreams for column `ProfileEvent_QueryProfilerConcurrencyOverruns`:
 	ProfileEvent_QueryProfilerConcurrencyOverruns.sparse.idx
 	ProfileEvent_QueryProfilerConcurrencyOverruns
-2 substreams for column `ProfileEvent_QueryProfilerRuns`:
-	ProfileEvent_QueryProfilerRuns.sparse.idx
+1 substreams for column `ProfileEvent_QueryProfilerRuns`:
 	ProfileEvent_QueryProfilerRuns
 2 substreams for column `ProfileEvent_QueryProfilerErrors`:
 	ProfileEvent_QueryProfilerErrors.sparse.idx
@@ -3126,7 +3123,8 @@ columns substreams version: 1
 2 substreams for column `CurrentMetric_QueryPreempted`:
 	CurrentMetric_QueryPreempted.sparse.idx
 	CurrentMetric_QueryPreempted
-1 substreams for column `CurrentMetric_TCPConnection`:
+2 substreams for column `CurrentMetric_TCPConnection`:
+	CurrentMetric_TCPConnection.sparse.idx
 	CurrentMetric_TCPConnection
 2 substreams for column `CurrentMetric_MySQLConnection`:
 	CurrentMetric_MySQLConnection.sparse.idx
@@ -3787,7 +3785,8 @@ columns substreams version: 1
 2 substreams for column `CurrentMetric_BrokenDistributedFilesToInsert`:
 	CurrentMetric_BrokenDistributedFilesToInsert.sparse.idx
 	CurrentMetric_BrokenDistributedFilesToInsert
-1 substreams for column `CurrentMetric_TablesToDropQueueSize`:
+2 substreams for column `CurrentMetric_TablesToDropQueueSize`:
+	CurrentMetric_TablesToDropQueueSize.sparse.idx
 	CurrentMetric_TablesToDropQueueSize
 2 substreams for column `CurrentMetric_MaxDDLEntryID`:
 	CurrentMetric_MaxDDLEntryID.sparse.idx

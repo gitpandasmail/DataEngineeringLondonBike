@@ -43,8 +43,7 @@ columns substreams version: 1
 	value1
 1 substreams for column `value2`:
 	value2
-2 substreams for column `value3`:
-	value3.sparse.idx
+1 substreams for column `value3`:
 	value3
 2 substreams for column `value4`:
 	value4.sparse.idx

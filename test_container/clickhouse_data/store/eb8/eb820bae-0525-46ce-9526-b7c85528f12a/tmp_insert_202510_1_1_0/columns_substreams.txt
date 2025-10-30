@@ -1114,8 +1114,7 @@ columns substreams version: 1
 	ProfileEvent_RegexpLocalCacheMiss
 1 substreams for column `ProfileEvent_ContextLock`:
 	ProfileEvent_ContextLock
-2 substreams for column `ProfileEvent_ContextLockWaitMicroseconds`:
-	ProfileEvent_ContextLockWaitMicroseconds.sparse.idx
+1 substreams for column `ProfileEvent_ContextLockWaitMicroseconds`:
 	ProfileEvent_ContextLockWaitMicroseconds
 2 substreams for column `ProfileEvent_StorageBufferFlush`:
 	ProfileEvent_StorageBufferFlush.sparse.idx
@@ -1235,8 +1234,7 @@ columns substreams version: 1
 	ProfileEvent_DNSError
 1 substreams for column `ProfileEvent_PartsLockHoldMicroseconds`:
 	ProfileEvent_PartsLockHoldMicroseconds
-2 substreams for column `ProfileEvent_PartsLockWaitMicroseconds`:
-	ProfileEvent_PartsLockWaitMicroseconds.sparse.idx
+1 substreams for column `ProfileEvent_PartsLockWaitMicroseconds`:
 	ProfileEvent_PartsLockWaitMicroseconds
 2 substreams for column `ProfileEvent_RealTimeMicroseconds`:
 	ProfileEvent_RealTimeMicroseconds.sparse.idx

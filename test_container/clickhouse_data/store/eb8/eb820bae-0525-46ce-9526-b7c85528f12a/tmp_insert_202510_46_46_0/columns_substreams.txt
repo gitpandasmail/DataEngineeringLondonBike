@@ -290,7 +290,8 @@ columns substreams version: 1
 	ProfileEvent_DiskReadElapsedMicroseconds
 1 substreams for column `ProfileEvent_DiskWriteElapsedMicroseconds`:
 	ProfileEvent_DiskWriteElapsedMicroseconds
-1 substreams for column `ProfileEvent_NetworkReceiveElapsedMicroseconds`:
+2 substreams for column `ProfileEvent_NetworkReceiveElapsedMicroseconds`:
+	ProfileEvent_NetworkReceiveElapsedMicroseconds.sparse.idx
 	ProfileEvent_NetworkReceiveElapsedMicroseconds
 2 substreams for column `ProfileEvent_NetworkSendElapsedMicroseconds`:
 	ProfileEvent_NetworkSendElapsedMicroseconds.sparse.idx
@@ -1412,7 +1413,8 @@ columns substreams version: 1
 2 substreams for column `ProfileEvent_QueryProfilerConcurrencyOverruns`:
 	ProfileEvent_QueryProfilerConcurrencyOverruns.sparse.idx
 	ProfileEvent_QueryProfilerConcurrencyOverruns
-1 substreams for column `ProfileEvent_QueryProfilerRuns`:
+2 substreams for column `ProfileEvent_QueryProfilerRuns`:
+	ProfileEvent_QueryProfilerRuns.sparse.idx
 	ProfileEvent_QueryProfilerRuns
 2 substreams for column `ProfileEvent_QueryProfilerErrors`:
 	ProfileEvent_QueryProfilerErrors.sparse.idx
@@ -2398,8 +2400,7 @@ columns substreams version: 1
 2 substreams for column `ProfileEvent_MergeTreeAllRangesAnnouncementsSentElapsedMicroseconds`:
 	ProfileEvent_MergeTreeAllRangesAnnouncementsSentElapsedMicroseconds.sparse.idx
 	ProfileEvent_MergeTreeAllRangesAnnouncementsSentElapsedMicroseconds
-2 substreams for column `ProfileEvent_MergerMutatorsGetPartsForMergeElapsedMicroseconds`:
-	ProfileEvent_MergerMutatorsGetPartsForMergeElapsedMicroseconds.sparse.idx
+1 substreams for column `ProfileEvent_MergerMutatorsGetPartsForMergeElapsedMicroseconds`:
 	ProfileEvent_MergerMutatorsGetPartsForMergeElapsedMicroseconds
 2 substreams for column `ProfileEvent_MergerMutatorPrepareRangesForMergeElapsedMicroseconds`:
 	ProfileEvent_MergerMutatorPrepareRangesForMergeElapsedMicroseconds.sparse.idx
@@ -3125,7 +3126,8 @@ columns substreams version: 1
 2 substreams for column `CurrentMetric_QueryPreempted`:
 	CurrentMetric_QueryPreempted.sparse.idx
 	CurrentMetric_QueryPreempted
-1 substreams for column `CurrentMetric_TCPConnection`:
+2 substreams for column `CurrentMetric_TCPConnection`:
+	CurrentMetric_TCPConnection.sparse.idx
 	CurrentMetric_TCPConnection
 2 substreams for column `CurrentMetric_MySQLConnection`:
 	CurrentMetric_MySQLConnection.sparse.idx
@@ -3786,7 +3788,8 @@ columns substreams version: 1
 2 substreams for column `CurrentMetric_BrokenDistributedFilesToInsert`:
 	CurrentMetric_BrokenDistributedFilesToInsert.sparse.idx
 	CurrentMetric_BrokenDistributedFilesToInsert
-1 substreams for column `CurrentMetric_TablesToDropQueueSize`:
+2 substreams for column `CurrentMetric_TablesToDropQueueSize`:
+	CurrentMetric_TablesToDropQueueSize.sparse.idx
 	CurrentMetric_TablesToDropQueueSize
 2 substreams for column `CurrentMetric_MaxDDLEntryID`:
 	CurrentMetric_MaxDDLEntryID.sparse.idx

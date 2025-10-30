@@ -1,0 +1,21 @@
+columns substreams version: 1
+7 columns:
+3 substreams for column `hostname`:
+	hostname.dict_prefix
+	hostname.dict
+	hostname
+1 substreams for column `event_date`:
+	event_date
+1 substreams for column `event_time`:
+	event_time
+1 substreams for column `code`:
+	code
+3 substreams for column `error`:
+	error.dict_prefix
+	error.dict
+	error
+1 substreams for column `value`:
+	value
+2 substreams for column `remote`:
+	remote.sparse.idx
+	remote

@@ -83,14 +83,11 @@ columns substreams version: 1
 	views.size0
 	views.dict
 	views
-2 substreams for column `exception_code`:
-	exception_code.sparse.idx
+1 substreams for column `exception_code`:
 	exception_code
-2 substreams for column `exception`:
-	exception.sparse.idx
+1 substreams for column `exception`:
 	exception
-2 substreams for column `stack_trace`:
-	stack_trace.sparse.idx
+1 substreams for column `stack_trace`:
 	stack_trace
 1 substreams for column `is_initial_query`:
 	is_initial_query
@@ -267,7 +264,8 @@ columns substreams version: 1
 	transaction_id%2E2
 	transaction_id%2E3.sparse.idx
 	transaction_id%2E3
-1 substreams for column `query_cache_usage`:
+2 substreams for column `query_cache_usage`:
+	query_cache_usage.sparse.idx
 	query_cache_usage
 5 substreams for column `asynchronous_read_counters`:
 	asynchronous_read_counters%2Ekeys.dict_prefix
