@@ -7,6 +7,10 @@ services:
     ports:
       - "8123:8123" # HTTP interface
       - "9000:9000" # Native client interface
+    environment:
+      CLICKHOUSE_USER: dbt
+      CLICKHOUSE_PASSWORD: supersecret
+      CLICKHOUSE_DB: default
     volumes:
       # This persists our database data on our local machine.
       - ./clickhouse_data:/var/lib/clickhouse/
