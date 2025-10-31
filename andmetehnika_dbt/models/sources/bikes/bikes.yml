@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: bikes
+    database: default
+    schema: default
+    tables:
+    - name: dim_bike_station
+      columns:
+        - name: station_id
+          tests:
+          - not_null
+          - unique
+        - name: station_name
+        - name: district
