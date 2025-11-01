@@ -1,3 +1,0 @@
-format version: 1
-create time: 2025-10-29 10:09:08
-commands: (UPDATE ValidTo = toDate(\'2025-09-20\') WHERE (CustomerID = 1) AND (ValidTo = toDate(\'9999-12-31\')))
