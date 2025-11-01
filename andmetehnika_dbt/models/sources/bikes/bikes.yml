@@ -13,3 +13,55 @@ sources:
           - unique
         - name: station_name
         - name: district
+    - name: dim_date
+      columns:
+          - name: date_id
+            description: "Primary key for the date dimension"
+            tests:
+              - not_null
+              - unique
+          - name: day
+          - name: week
+          - name: month
+          - name: year
+          - name: day_of_week
+          - name: is_weekend
+          - name: season
+          - name: is_holiday
+          - name: holiday_name
+    - name: dim_time
+      columns:
+        - name: time_id
+          description: "Primary key for the time dimension"
+          tests:
+            - not_null
+            - unique
+        - name: hour
+        - name: minute
+        - name: is_summer_time
+        - name: time_of_day
+        - name: is_peak
+        - name: peak_type
+    - name: bike_ride_fact_table
+      columns:
+        - name: ob_id
+          description: "Observation / event id (foreign key)"
+          tests:
+            - not_null
+        - name: date_id
+          tests:
+            - not_null
+        - name: time_id
+          tests:
+            - not_null
+        - name: start_station_id
+          tests:
+            - not_null
+        - name: end_station_id
+          tests:
+            - not_null
+        - name: ride_begin_time
+        - name: ride_end_time
+        - name: duration_time
+        - name: duration_ms
+        - name: bike_mode

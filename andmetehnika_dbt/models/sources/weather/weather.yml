@@ -1,0 +1,24 @@
+version: 2
+
+sources:
+  - name: weather
+    database: default
+    schema: default
+    tables:
+    - name: dim_weather_observations
+      columns:
+          - name: ob_id
+            description: "Primary key for weather observations"
+            tests:
+              - not_null
+              - unique
+          - name: ob_time
+          - name: wind_direction
+          - name: wind_speed_g
+          - name: air_temperature_g
+          - name: has_prcp
+          - name: prcp_amt_g
+          - name: prst_wx_id
+          - name: cld_tlt_amt_id
+          - name: cld_base_ht
+          - name: ground_state_id
