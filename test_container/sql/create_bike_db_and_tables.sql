@@ -66,7 +66,7 @@ ORDER BY time_id;
 
 
 -- Fact Table: Bike Ride
-CREATE TABLE bike_ride_fact_table
+CREATE TABLE bike_ride_facts
 (
     ob_id UInt32,
     date_id UInt32,
