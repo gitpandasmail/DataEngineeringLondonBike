@@ -31,6 +31,9 @@ Source: CEDA UK Hourly Rain Observations
 # 🦮 GUIDES 🦮
 'How to run' guides are under spesific project part folders in out Github. Please check the details from there.
 
+Container README - https://github.com/gitpandasmail/DataEngineeringLondonBike/blob/main/test_container/README.md
+dbt README - https://github.com/gitpandasmail/DataEngineeringLondonBike/tree/main/andmetehnika_dbt
+
 # 📷 Sceenshots of Airflow and DAG 📷
 
 TBA
