@@ -1,0 +1,4 @@
+name: 'citybike_weather'
+version: '1.0'
+profile: 'clickhouse'
+model-paths: ['models']

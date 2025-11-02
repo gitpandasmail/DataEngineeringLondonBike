@@ -1,0 +1,78 @@
+# -------------------------
+
+# ClickHouse data files
+
+# -------------------------
+
+clickhouse_data/
+*.bin
+*.cmrk4
+*.idx
+*.dat
+*.txt
+tmp_insert_*/
+
+# -------------------------
+
+# Airflow
+
+# -------------------------
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+airflow/airflow.db
+airflow/logs/
+airflow/plugins/
+
+# -------------------------
+
+# dbt
+
+# -------------------------
+
+.dbt/
+target/
+logs/
+dbt_packages/
+
+# -------------------------
+
+# Docker
+
+# -------------------------
+
+*.log
+docker-compose.override.yml
+*.yml~    # backup files
+*.backup
+tmp/
+
+# -------------------------
+
+# OS/IDE
+
+# -------------------------
+
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+~$*
+
+# -------------------------
+
+# Optional: temp scripts
+
+# -------------------------
+
+*.tmp
+*.bak
+*.backup

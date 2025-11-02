@@ -1,17 +1,30 @@
-FROM clickhouse/clickhouse-server:latest
+# Use a lightweight Python image
+FROM python:3.11-slim
 
-# install HTTP server and utilities
-RUN apt-get update && apt-get install -y nginx curl && rm -rf /var/lib/apt/lists/*
+# Set environment variables
+ENV PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1 \
+    DBT_PROFILES_DIR=/root/.dbt
 
-# install Tabix UI from the image
-RUN docker pull spoonest/clickhouse-tabix-web-client:latest \
-    && docker create --name tmp tabix-temp-image spoonest/clickhouse-tabix-web-client:latest \
-    && docker cp tmp:/usr/share/nginx/html /var/www/html/tabix \
-    && docker rm tmp
+# Install system dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    curl \
+    git \
+    nano \
+    && rm -rf /var/lib/apt/lists/*
 
-# configure nginx to serve the UI and proxy to ClickHouse HTTP interface
-COPY nginx.conf /etc/nginx/nginx.conf
+# Upgrade pip
+RUN pip install --upgrade pip setuptools wheel
 
-EXPOSE 8123 9000 8080
+# Install dbt-core and dbt-clickhouse
+RUN pip install dbt-core dbt-clickhouse
 
-CMD clickhouse-server --daemon && nginx -g "daemon off;"
+# Set working directory
+WORKDIR /app
+
+# Copy your dbt project
+COPY . /app
+
+# Default command
+ENTRYPOINT ["dbt"]

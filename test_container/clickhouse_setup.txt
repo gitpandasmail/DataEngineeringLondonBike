@@ -1,4 +1,0 @@
-docker run -d \
-  --name tabix \
-  -p 8082:80 \
-  spoonest/clickhouse-tabix-web-client:latest
