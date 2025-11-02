@@ -30,3 +30,11 @@ Source: CEDA UK Hourly Rain Observations
 
 # 🦮 GUIDES 🦮
 'How to run' guides are under spesific project part folders in out Github. Please check the details from there.
+
+# 📷 Sceenshots of Airflow and DAG 📷
+
+TBA
+
+# 📊 Results of the queries 📊
+
+TBA
