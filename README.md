@@ -29,5 +29,4 @@ Contains precipitation amount and duration with hour-level granularity
 Source: CEDA UK Hourly Rain Observations
 
 # 🦮 GUIDES 🦮
-How to run
-TODO
+'How to run' guides are under spesific project part folders in out Github. Please check the details from there.
