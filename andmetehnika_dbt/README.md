@@ -26,12 +26,12 @@ andmetehnika_clickhouse:
   outputs:
     dev:
       type: clickhouse
-      schema: default          # ClickHouse “database” for your models
-      host: localhost          # or your Docker host/IP
-      port: 8123               # HTTP
+      schema: default
+      host: localhost
+      port: 8123
       user: dbt
-      password: supersecret             # if you set one, put it here
-      secure: false            # true if you published HTTPS (8443)
+      password: supersecret
+      secure: false
 ```
 
 ### Using the starter project
