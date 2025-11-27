@@ -23,7 +23,7 @@ tmp_insert_*/
 *.pyo
 *.pyd
 .venv/
-.env
+#.env
 airflow/airflow.db
 airflow/logs/
 airflow/plugins/
