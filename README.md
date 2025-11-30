@@ -35,11 +35,3 @@ Source: CEDA UK Hourly Rain Observations
 Container README - https://github.com/gitpandasmail/DataEngineeringLondonBike/blob/main/test_container/README.md
 
 dbt README - https://github.com/gitpandasmail/DataEngineeringLondonBike/blob/main/andmetehnika_dbt/README.md
-
-# 📷 Sceenshots of Airflow and DAG 📷
-
-TBA
-
-# 📊 Results of the queries 📊
-
-TBA
