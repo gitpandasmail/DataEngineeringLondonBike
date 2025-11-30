@@ -18,3 +18,4 @@ docker compose up -d
 ```
 
 
+This should create all the Docker containers that run all the necessary services for this project.
