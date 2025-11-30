@@ -1,3 +1,5 @@
+
+
 -- Create users first (before databases)
 CREATE USER superset WITH PASSWORD 'superset';
 CREATE USER airflow WITH PASSWORD 'airflow';
