@@ -41,6 +41,9 @@ Note: This information is added after part 3 deadline. It is to support poster p
 We have used following ranges to group the weather data
 
 * Time of day effect on bike ride count and e-bike %
+
+E-bikes are likely more popular during night time because e-bike amount in the city is likely very limited. At night time, people who ride bikes are more free to choose e-bikes as there are more available.
+
 <img width="761" height="472" alt="image" src="https://github.com/user-attachments/assets/9992edd8-5549-4d3c-8bae-5317d98d4bb0" />
 
 * Day of the week effect on bike rides count and e-bike %
