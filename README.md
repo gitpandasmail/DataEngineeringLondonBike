@@ -42,30 +42,46 @@ We have used following ranges to group the weather data
 
 * Time of day effect on bike ride count and e-bike %
 <img width="761" height="472" alt="image" src="https://github.com/user-attachments/assets/9992edd8-5549-4d3c-8bae-5317d98d4bb0" />
+
 * Day of the week effect on bike rides count and e-bike %
+
 <img width="748" height="459" alt="image" src="https://github.com/user-attachments/assets/851ba94e-7694-4c34-b2f3-cc930d562ec6" />
+
 * Wind effect on daytime bike ride average count and e-bike rate per hour
-  Data is filtered by hour - includes hours 7-21. Reason - Night time has calmer winds in London and not many people ride bike during night because of the day-night-cycle,  which can give wrong understandings of how wind speed affects bike rides.
+
+Data is filtered by hour - includes hours 7-21. Reason - Night time has calmer winds in London and not many people ride bike during night because of the day-night-cycle,  which can give wrong understandings of how wind speed affects bike rides.
+
 <img width="779" height="478" alt="image" src="https://github.com/user-attachments/assets/e2897386-4bbf-4c53-800f-bac0bb6e8fbf" />
+
 * Rain effect on bike ride average count and e-bike rate per hour
+
 <img width="750" height="467" alt="image" src="https://github.com/user-attachments/assets/893c6ba1-6bd7-4035-b94c-6e11efed66f8" />
+
 * Hourly sunshine duration effect on daytime bike rides count and e-bike rate
-  Data is filtered by hour - includes hours 7-21. Reason - Night time always has 0 hours of sunshine and not many people ride bike during night because of the day-night-cycle,  which can give wrong understandings of how sunshine duration affects bike rides.
+
+Data is filtered by hour - includes hours 7-21. Reason - Night time always has 0 hours of sunshine and not many people ride bike during night because of the day-night-cycle,  which can give wrong understandings of how sunshine duration affects bike rides.
+
 <img width="858" height="528" alt="image" src="https://github.com/user-attachments/assets/d535888b-c842-4327-9f04-ccba499c9af4" />
+
 * Daytime hour based average temperature effect on daytime bike rides count and e-bike rate
-  Data is filtered by hour - includes hours 7-21. Reason - Night time has on avergae lower temperature and not many people ride bike during night because of the day-night-cycle, which can give wrong understandings of how temperature affects bike rides.
+
+Data is filtered by hour - includes hours 7-21. Reason - Night time has on avergae lower temperature and not many people ride bike during night because of the day-night-cycle, which can give wrong understandings of how temperature affects bike rides.
+
   <img width="812" height="498" alt="image" src="https://github.com/user-attachments/assets/76f27313-2e7f-4433-bb5f-0affb54d703c" />
 
-Data analysis details
+## Data analysis details
 
 Temperature grouping details
+
 <img width="391" height="198" alt="image" src="https://github.com/user-attachments/assets/76aab991-ec13-4a41-bd41-580e88c9bc4c" />
 
 Rainfall grouping details
+
 <img width="390" height="146" alt="image" src="https://github.com/user-attachments/assets/60dde797-22ee-4e54-b3e7-483161846234" />
 
 Wind speed grouping details
-<img width="390" height="164" alt="image" src="https://github.com/user-attachments/assets/8293ea81-bb59-433f-8013-e54bb867158b" 
+
+<img width="390" height="164" alt="image" src="https://github.com/user-attachments/assets/8293ea81-bb59-433f-8013-e54bb867158b" />
 
 
 
